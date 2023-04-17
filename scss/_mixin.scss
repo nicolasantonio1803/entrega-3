@@ -1,0 +1,30 @@
+@mixin texto ($argu1,$argu2,$argu3,$argu4,$argu5){
+  color:$argu1;
+  font-size: $argu2;
+  line-height: $argu3;
+  text-align: $argu4;
+  margin:$argu5;
+
+}
+
+p{
+  @include texto($maincolortex, 1.5em, 1.6, $mainalign,20px)
+}
+
+
+@mixin btn ($arg1,$arg2,$arg3,$arg4,$arg5,$arg6,$arg7,$arg8,){
+  padding: 14px 50px;
+  border: none;
+  background-color: $maincolortex;
+  color:$maincolordos;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 300ms;
+  &:hover{ opacity: 0.4;}
+
+}
+
+.btn-registro{
+  @include btn(14px 50px,none,$maincolortex,$maincolordos,400,1rem,pointer,opacity300ms)
+}

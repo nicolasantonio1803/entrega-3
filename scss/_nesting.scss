@@ -1,0 +1,16 @@
+#carousel-uno{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+#btn{
+    background-color: gray;
+    color: white;
+    margin: 20px;
+    transition: opacity 300ms;
+    &:hover{ opacity: 0.4;}
+}

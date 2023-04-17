@@ -1,0 +1,27 @@
+.redes-sociales {
+    display: $mainflex;
+    justify-content: $mainalign;
+    padding: 0 10px 0 10px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: opacity 300ms;
+    &:hover{ opacity: 0.4;}
+}
+ 
+.redes-sociales img {
+    width: 40%;
+    @extend .redes-sociales
+}
+
+.video_cover {
+    margin:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:$mainalign
+}
+
+.video_cover2{
+    margin: auto;
+    @extend .video_cover
+}
