@@ -12,7 +12,7 @@ p{
 }
 
 
-@mixin btn ($arg1,$arg2,$arg3,$arg4,$arg5,$arg6,$arg7,$arg8,){
+@mixin btn ($arg1,$arg2,$arg3,$arg4,$arg5,$arg6,$arg7,$arg8,$arg9,$arg10){
   padding: 14px 50px;
   border: none;
   background-color: $maincolortex;
@@ -22,9 +22,11 @@ p{
   cursor: pointer;
   transition: opacity 300ms;
   &:hover{ opacity: 0.4;}
+  position: sticky;
+  z-index: 2;
 
 }
 
 .btn-registro{
-  @include btn(14px 50px,none,$maincolortex,$maincolordos,400,1rem,pointer,opacity300ms)
+  @include btn(14px 50px,none,$maincolortex,$maincolordos,400,1rem,pointer,opacity300ms,sticky,2)
 }

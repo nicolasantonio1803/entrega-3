@@ -16,6 +16,8 @@ p {
   font-size: 1rem;
   cursor: pointer;
   transition: opacity 300ms;
+  position: sticky;
+  z-index: 2;
 }
 .btn-registro:hover {
   opacity: 0.4;
@@ -49,6 +51,15 @@ p {
   margin: auto;
 }
 
+.botonera {
+  background: rgb(116, 116, 131);
+  background: radial-gradient(circle, rgb(116, 116, 131) 61%, rgb(225, 229, 231) 86%);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
 * {
   font-family: cursive;
 }
@@ -68,7 +79,7 @@ body {
   text-decoration: none;
   transition: opacity 300ms;
   list-style: none;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 .botonera ul li a:hover {
   opacity: 0.4;
@@ -85,8 +96,18 @@ h1, .h1 {
   width: 100%;
   height: auto;
   margin: auto;
+  padding: 30px;
+  position: static;
+  z-index: 1;
+}
+
+.container_imagen2 img {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
   padding: 40px;
-  text-align: center;
+  position: static;
+  z-index: 1;
 }
 
 h2, .h2 {
@@ -109,15 +130,7 @@ h3, .h3 {
   width: 100%;
   height: auto;
   margin: auto;
-  padding: 20px;
-}
-
-.container_imagen img {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  padding: 40px;
-  text-align: center;
+  padding: 30px;
 }
 
 .text_final {
@@ -146,12 +159,19 @@ h3, .h3 {
   height: 70%;
 }
 
+.row {
+  padding: 30px;
+  margin: 20px;
+}
+
 #carousel-uno {
   width: 50%;
   height: auto;
   margin: auto;
   padding: 20px;
   margin-top: 20px;
+  position: static;
+  z-index: 1;
 }
 
 #btn {
