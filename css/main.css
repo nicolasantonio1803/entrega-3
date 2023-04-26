@@ -43,12 +43,13 @@ p {
 .video_cover, .video_cover2 {
   margin: 20px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
 .video_cover2 {
   margin: auto;
+  padding: 30px;
 }
 
 .botonera {
@@ -160,7 +161,7 @@ h3, .h3 {
 }
 
 .row {
-  padding: 30px;
+  padding: 20px;
   margin: 20px;
 }
 

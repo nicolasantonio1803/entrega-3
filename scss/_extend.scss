@@ -17,11 +17,12 @@
 .video_cover {
     margin:20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align:$mainalign
 }
 
 .video_cover2{
     margin: auto;
+    padding: 30px;
     @extend .video_cover
 }
