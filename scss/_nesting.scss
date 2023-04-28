@@ -16,3 +16,13 @@
     transition: opacity 300ms;
     &:hover{ opacity: 0.4;}
 }
+
+#btn-error{
+    padding: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: $maincolortex;
+    color: red;
+    transition: opacity 300ms;
+    &:hover{ opacity: 0.4;}
+}

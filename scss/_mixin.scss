@@ -12,7 +12,7 @@ p{
 }
 
 
-@mixin btn ($arg1,$arg2,$arg3,$arg4,$arg5,$arg6,$arg7,$arg8,$arg9,$arg10){
+@mixin btn($arg1,$arg2,$arg3,$arg4,$arg5,$arg6,$arg7,$arg8,$arg9,$arg10){
   padding: 14px 50px;
   border: none;
   background-color: $maincolortex;

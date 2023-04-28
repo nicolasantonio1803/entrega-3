@@ -27,7 +27,7 @@ p {
   display: flex;
   justify-content: center;
   padding: 0 10px 0 10px;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-bottom: 40px;
   cursor: pointer;
   transition: opacity 300ms;
@@ -43,7 +43,7 @@ p {
 .video_cover, .video_cover2 {
   margin: 20px;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -182,6 +182,18 @@ h3, .h3 {
   transition: opacity 300ms;
 }
 #btn:hover {
+  opacity: 0.4;
+}
+
+#btn-error {
+  padding: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: black;
+  color: red;
+  transition: opacity 300ms;
+}
+#btn-error:hover {
   opacity: 0.4;
 }
 
